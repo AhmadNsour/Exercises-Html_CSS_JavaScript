@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Q4</title>
+	<style type="text/css">
+	#no{
+		background-color: red;
+	}
+	#yes{
+		background-color: green;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="main" >Main div is here</div>
+	<button id="no" onclick="red()">Red</button>
+	<button id="yes" onclick="green()">Green</button>
+
+
+<script type="text/javascript">
+function red(){
+  document.getElementsByClassName("main")[0].style.backgroundColor= "red";
+}
+function green(){
+	
+  document.getElementsByClassName("main")[0].style.backgroundColor= "green";
+}
+	
+</script>
+</body>
+
+</html>
