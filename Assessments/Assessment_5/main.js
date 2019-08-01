@@ -12,17 +12,18 @@ Ex:  hello(null) => null
 
 */
 
-function hello(name) {
-  // WRITE YOUR CODE UNDER THIS LINE 
-if (name ="");
+function Hello(name) {
+  // WRITE YOUR CODE UNDER THIS LINE
+if (name =="null"){
 return "null";
-
-
-return "Hello " + name ;
 }
-console.log (hello("Ahmad"));
-console.log (hello("Ali"));
-console.log (hello("Yazan"));
+else {
+return "Hello " + name;
+}
+}
+console.log (Hello("Ahmad"));
+console.log (Hello("Ali"));
+console.log (Hello("Yazan"));
 
 
 /* Q2:
