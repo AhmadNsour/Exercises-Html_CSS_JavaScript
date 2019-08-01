@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url('../img/coding1.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+form { 
+ width: 25%;
+ margin:0 auto;
+ margin-top: 35px;
+ padding-right: 20px;
+ padding-top: 30px;
+ padding-left: 20px;
+ position:relative;
+ border: 2px solid black;
+ border-radius:50px;
+}
+input[type=text], input[type=password] {
+  width: 85%;
+  padding: 12px 2px;
+  margin: 10px 0px 15px 0px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+button {
+  background-color:#343A40;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0 0 50px;
+  border: 1px solid black;
+  border-radius:10px;
+  width: 70%;
+}
+.imgcontainer {
+  margin: 10px 0px 12px 0px;
+}
+.myimg
+{
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 15px;
+}
+.ms
+{ height: 20px; 
+  text-align:center;
+  color: black; 
+  padding-bottom: 20px;
+  position: relative;
+  margin: 0 auto;
+}
