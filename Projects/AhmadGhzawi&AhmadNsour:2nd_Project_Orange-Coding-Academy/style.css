@@ -1,0 +1,241 @@
+*{
+	font-family: "Arial";
+}
+
+.logo{
+	margin: 6px 0  8px 0px;
+	max-width: 50%;
+}
+
+.black-bg{
+	background-color: rgb(0, 0, 0);
+}
+
+.image-height{
+	height: 500px;
+}
+
+.margin-plus{
+	margin-top: 47px;
+}
+
+.orange-bg{
+	background-color: #FF7A01;
+}
+
+.icons{
+	font-size: 23px;
+}
+
+.slider{
+	padding: 0 0 0 0;
+}
+
+.btn-bg-color{
+	background-color: #343A40;
+	/*font-size: 20px;*/
+	border: 1px solid #343A40;
+	border-radius: 500px;
+}
+
+#code-text:hover{
+	text-decoration: underline;
+}
+
+#about:hover{
+	background-color: #FF7A01;
+}
+
+#events:hover{
+	background-color: #FF7A01;
+}
+
+#heroes:hover{
+	background-color: #FF7A01;
+}
+
+#challenge:hover{
+	background-color: #FF7A01;
+}
+#why:hover{
+	background-color: #FF7A01;
+}
+#objectives:hover{
+	background-color: #FF7A01;
+}
+#mission:hover{
+	background-color: #FF7A01;
+}
+
+#add-event-btn:hover{
+  background-color: #FF7A01;
+}
+
+#add-hero-btn:hover{
+  background-color: #FF7A01;
+}
+
+.login-form { 
+ width: 25%;
+ margin:0 auto;
+ margin-top: 60px;
+ padding-bottom: 20px;
+ padding-right: 20px;
+ padding-top: 10px;
+ padding-left: 20px;
+ position:relative;
+ border: 2px solid black;
+ border-radius:50px;
+}
+.login-input{
+  width: 85%;
+  padding: 12px 20px;
+  margin: 20px 0px 20px 15px;
+  display: inline-block;
+  border-radius: 15px ;
+  box-sizing: border-box;
+}
+
+.reset-form { 
+ width: 25%;
+ margin:0 auto;
+ margin-top: 35px;
+ padding-right: 20px;
+ padding-top: 30px;
+ padding-left: 20px;
+ position:relative;
+ border: 2px solid black;
+ border-radius:50px;
+}
+.reset-input{
+  width: 85%;
+  padding: 12px 2px;
+  margin: 10px 0px 15px 0px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.event-form { 
+ width: 25%;
+ margin:0 auto;
+ margin-top: 60px;
+ padding-bottom: 20px;
+ padding-top: 10px;
+ border: 2px solid black;
+ border-radius:50px;
+ position:fixed;
+ z-index: 1;
+ top: 15%;
+ left: 37%;
+ background-color: white;
+}
+
+.event-input{
+  width: 65%;
+  padding: 12px 20px;
+  margin: 10px 0px 20px 70px;
+  display: inline-block;
+  border-radius: 10px ;
+  box-sizing: border-box;
+  color:grey;
+}
+
+.hero-form { 
+ width: 25%;
+ margin:0 auto;
+ margin-top: 60px;
+ padding-bottom: 20px;
+ padding-top: 10px;
+ border: 2px solid black;
+ border-radius:50px;
+ position:fixed;
+ z-index: 1;
+ top: 10%;
+ left: 37%;
+ background-color: white;
+}
+.hero-input{
+  width: 65%;
+  padding: 12px 20px;
+  margin: 10px 0px 20px 70px;
+  display: inline-block;
+  border-radius: 10px ;
+  box-sizing: border-box;
+  color:grey;
+}
+
+.test {
+  background-color:#343A40;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0 20px 20px;
+  border: none;
+  width: 70%;
+}
+
+.imgcontainer {
+  margin: 10px 0px 12px 0px;
+}
+
+.myimg
+{
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 15px;
+}
+
+.ms
+{ height: 20px; 
+  text-align:center;
+  color: black; 
+  padding-bottom: 40px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.submit-btn {
+  background-color:#343A40;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0 0 50px;
+  border: 1px solid black;
+  border-radius:10px;
+  width: 70%;
+}
+
+.button1{
+  background-color:#434A40;
+  color: white;
+  padding: 10px 0 10px 0px; ;
+  margin: 0 0 8px 23%;
+  border-radius: 10px ;
+  width: 50%;
+  font-size: 15px;
+}
+
+.ms-event-hero
+{ height: 20px; 
+  width: 50%;
+  text-align:center;
+  color: black; 
+  padding-bottom: 20px;
+  position: relative;
+  margin: 0 0 30px 30px;
+}
+
+.form-icon
+{
+font-size: 40px;
+}
+
+.bt1
+{ width: 18%;
+  margin-left: 9px;
+  background-color:#FF7A01;
+  color: white;
+  border-radius: 3px ;
+  font-size: 15px;
+  padding: 5px;
+}
+
+
