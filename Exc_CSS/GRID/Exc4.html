@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exc4_GRID</title>
+	<style type="text/css">
+	*{
+	margin: 0;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: sans-serif;
+	}
+	.container{
+	display: grid;
+	grid-template-columns: 150px 1fr 150px ;
+	grid-template-rows: 15vh 70vh 9vh;
+	grid-gap: 25px;
+	text-align: center;
+		}
+
+	body{
+	height: 100vh;
+		}
+
+	.color{
+	background-color: yellow;
+		}
+
+	header{
+	grid-column: 1 / span 3;
+		}
+
+	nav{
+	grid-row: 2 / span 2;
+		}
+
+	footer{
+	grid-column: 2/ span 2;
+			}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header class="color">Header</header>
+		<nav class="color">Nav</nav>
+		<article class="color">Article</article>
+		<div class="color">Ads</div>
+		<footer class="color">Footer</footer>
+	</div>
+</body>

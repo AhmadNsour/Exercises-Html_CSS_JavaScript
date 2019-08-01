@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exc5_GRID</title>
+  <style type="text/css">
+  .container
+      {
+    display: grid;
+    grid-template-rows: repeat(6, 15vh);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+      }
+  .col{
+    color: white;
+    font-size: 5vw;
+    background: yellow;
+    text-align: center;
+      }
+  .col:nth-child(1) 
+      {
+    grid-column: span 12;
+      }
+  .col:nth-child(2), 
+  .col:nth-child(3) {
+    grid-column: span 6;
+      }
+  .col:nth-child(4),
+  .col:nth-child(5),
+  .col:nth-child(6) {
+    grid-column: span 4;
+      }
+  .col:nth-child(7),
+  .col:nth-child(8),
+  .col:nth-child(9),
+  .col:nth-child(10) 
+      {
+    grid-column: span 3;
+      }
+  .col:nth-child(11),
+  .col:nth-child(12),
+  .col:nth-child(13),
+  .col:nth-child(14),
+  .col:nth-child(15),
+  .col:nth-child(16) 
+      {
+    grid-column: span 2;
+      }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="col">1</div>
+    <div class="col">2</div>
+    <div class="col">3</div>
+    <div class="col">4</div>
+    <div class="col">5</div>
+    <div class="col">6</div>
+    <div class="col">7</div>
+    <div class="col">8</div>
+    <div class="col">9</div>
+    <div class="col">10</div>
+    <div class="col">11</div>
+    <div class="col">12</div>
+    <div class="col">13</div>
+    <div class="col">14</div>
+    <div class="col">15</div>
+    <div class="col">16</div>
+    <div class="col">17</div>
+    <div class="col">18</div>
+    <div class="col">19</div>
+    <div class="col">20</div>
+    <div class="col">21</div>
+    <div class="col">22</div>
+    <div class="col">23</div>
+    <div class="col">24</div>
+    <div class="col">25</div>
+    <div class="col">26</div>
+    <div class="col">27</div>
+    <div class="col">28</div>
+  </div>
+<body>
+</body>
+</html>

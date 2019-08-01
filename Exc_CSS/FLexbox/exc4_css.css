@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    background-color: grey;
+    
+}
+.container {
+	display: flex;
+    justify-content: center;
+}
+.box {
+	display: flex;
+	flex-flow: column wrap; 
+}
+.box li {
+	display: flex;
+    padding: 15px;
+        
+}
+.box .icon {
+	display: flex;
+    width: 137px;
+}
+.box .icon img {
+	display: flex;
+    width: 100%;
+    background-color: #1469A6;
+}
+.allm {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.allm .messages {
+    order: 1;
+    
+}
+.allm .icon {
+    order: 2;
+}
+
+.messages {
+    background: white;
+    padding: 10px;
+    
+}
+.messages p {
+    font-size: 13px;
+    
+}
+.messages time {
+    font-size: 10px;
+    color: #ccc;
+}
+
+
+
+

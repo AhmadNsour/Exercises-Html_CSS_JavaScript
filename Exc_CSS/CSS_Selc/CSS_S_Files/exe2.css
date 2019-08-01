@@ -1,0 +1,46 @@
+body{
+			background-color: #f0f8ff;
+}
+.h1{
+	width: 80px;
+	background-color: red ;
+	}
+#div1-3{
+		width: 75%;
+		min-width: 500px;
+		border-width: 1px;
+		background-color:#333333;
+        margin-top: 1em;
+        border :0.5em;
+        background-color: white;
+        border-style: solid;
+		}
+.h2{
+	background-color: blue;
+}
+.span1{
+	font:bold;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color:#fdfd96;
+}
+.div2{
+	width: 75%;
+	min-width: 500px;
+	border-width: 1px;
+	margin-top: 1em;
+      border :0.5em;
+	 border-style: dashed;
+	 border-color: red;
+     color: red;"
+}
+.span2{
+	font:bold;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color: #fdca96;
+}
+#alert{
+	text-transform: capitalize;
+	text-decoration: underline;
+}

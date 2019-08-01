@@ -1,0 +1,28 @@
+a{
+color:green;
+}
+div:nth-child(2)>p>a
+{
+	background-color: yellow;
+	color: purple;
+}
+ul >li > a 
+{
+color: red;
+}
+ul > li > ul > li 
+{
+color: blue;
+}
+ li:first-child {
+ 	font-weight: bold;
+ }
+
+
+
+ 
+
+
+
+
+

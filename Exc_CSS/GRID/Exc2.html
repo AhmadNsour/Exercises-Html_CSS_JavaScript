@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exc2_GRID</title>
+	<style type="text/css">
+	body{
+	background-color: grey;
+		}
+	.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr; 
+	grid-column-gap: 10px;
+	grid-row-gap: 30px;
+	}
+
+	.big{
+	grid-area: 1/2/3/4;
+	}
+	img{
+	width: 100%;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<img src="https://via.placeholder.com/300x250">
+		<img src="https://via.placeholder.com/750x700" class="big">
+		<img src="https://via.placeholder.com/300x250">
+		<img src="https://via.placeholder.com/300x250">
+		<img src="https://via.placeholder.com/300x250">
+		<img src="https://via.placeholder.com/300x250">
+		<img src="https://via.placeholder.com/300x250">
+		<img src="https://via.placeholder.com/300x250">
+		<img src="https://via.placeholder.com/750x700" class="big">
+	</div>
+</body>
+</html>

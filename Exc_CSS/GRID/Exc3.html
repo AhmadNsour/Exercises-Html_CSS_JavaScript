@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exc3_GRID</title>
+	<style type="text/css">
+
+	body{
+	background-color: lightgray;
+	margin: 15px 15px;
+		}
+	.container{
+	display: grid;
+	grid-template-columns: 10% 90%;
+	}
+
+	label{
+	margin: 10px 0 0 0;
+	}
+
+	input{
+	width: 100%;
+	}
+
+	input:last-child{
+	background-color: darkgray;
+	color: white;
+	}
+
+	textarea{
+	width: 80%;
+	height:80%;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div>
+			<label>Comments</label>
+			<textarea></textarea>
+		</div>
+
+		<form method="post">
+			<label>Name</label>
+			<input type="text" name="name" >
+			<label>E-mail</label>
+			<input type="email" name="email" >
+			<label>Phone</label>
+			<input type="text" name="password" >
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
