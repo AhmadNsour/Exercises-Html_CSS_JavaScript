@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #4: Formatting text</title>
+    <style>
+        div {
+            width: 600px;
+            height: 100px;
+            border: 1px solid black;
+            margin-top: 10px;
+            /* default options */
+            font-family: Arial;
+            font-size: 12pt;
+        }
+    </style>
+</head>
+<body>
+<form name="form">
+    <select  class="input"  onchange="changeFontstyle (this);">
+        <option value="Arial" selected>Arial</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Helvetica">Helvetica</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Courier New">Courier New</option>
+    </select>
+    <select class="input" onchange="changeFontSize (this);">
+        <option value="8pt">8pt</option>
+        <option value="10pt">10pt</option>
+        <option value="12pt" selected>12pt</option>
+        <option value="14pt">14pt</option>
+        <option value="16pt">16pt</option>
+    </select>
+    <label >Italic <input  type="checkbox" ></label>
+    <label>Bold <input  id="bold" onchange="changeTextFontType (this)"; type="checkbox" ></label>
+    <label>Underline <input  type="checkbox" name="font_underline" id="font_underline"></label>
+</form>
+<div id="text">The quick brown fox jumps over the lazy dog</div>
+<script type="text/javascript">
+    changeFontstyle = function(font){
+        console.log(font);
+    document.getElementById("text").style.fontFamily = font.value;
+}
+   changeFontSize = function(fontA){
+     console.log(fontA);
+    document.getElementById("text").style.fontSize = fontA.value;
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

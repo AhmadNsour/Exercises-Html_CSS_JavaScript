@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #2: Changing colors</title>
+    <style>
+        #mydiv {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div  id="mydiv" onclick="mouseClick()">
+    </div>
+
+ <script>
+var arr = ["red", "green", "blue", "black", "yellow"];
+var counter = 0;
+var colorIndex;
+
+function mouseClick() {
+    colorIndex = Math.floor(Math.random()*(arr.length - 1));
+    document.getElementById("mydiv").style.backgroundColor = arr[colorIndex];
+    if (counter !== colorIndex) {
+        counter++;
+    document.getElementById("mydiv").style.backgroundColor = arr[counter];
+    }
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

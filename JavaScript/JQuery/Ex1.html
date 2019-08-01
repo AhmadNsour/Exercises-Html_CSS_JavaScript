@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<title>jQuery Add Elements to DOM</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("p").prepend("<h1>This is a heading</h1>"); 
+        });
+    });
+</script>
+</head>
+<body>
+    <p>This is a paragraph.</p>
+    <button>Add heading</button>
+</body> 
+</html>

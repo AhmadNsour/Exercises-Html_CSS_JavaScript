@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #5: Input check</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+        }
+        .err {
+            color: red;
+            font-size: 0.7em;
+        }
+    </style>
+</head>
+<body>
+<form name="pw">
+    <table>
+        <tr>
+        <td>Password (min 6 characters):</td>
+        <td><input name="password" type="password" placeholder="password"  id="password1" onkeyup="checkPasswordLength();" size="10" /></td>
+        <td>
+        <div id="pw1_check" class="err"></div>
+        </td>
+        </tr>
+        <tr>
+        <td>Repeat password:</td>
+        <td><input name="repeatpassword" type="password" placeholder="password" id="password2" onkeyup="checkPasswordLength();" size="10" /></td>
+        <td>
+        <div id="pw1_check" class="err"></div>
+        </td>
+        </tr>
+    </table>
+        <input  type="submit" value="Submit" id="submitBtn"/>
+</form>
+<script>
+    var btn = document.getElementById("submitBtn").style.visibility="hidden";
+        function checkPasswordLength(num){
+            var password1 = document.getElementById('password1');
+            var password2 = document.getElementById('password2');
+            var message = document.getElementById('pw1_check');
+            if(password1.value.length >= 6)
+            {
+            message.innerHTML = "character number ok!";
+            }
+            else
+            {
+           message.innerHTML = "Too short";
+            return;
+            }
+            if(password1.value == password2.value)
+            {
+            message.innerHTML = "Ok";
+            var btn = document.getElementById("submitBtn").style.visibility="visible";
+            }
+            else
+            {
+            message.innerHTML = " These passwords don't match";
+            }
+            }
+    </script>
+</body>
+</html>
